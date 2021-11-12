@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+        <meta name="author"  content="Gislene Rodrigues">      
+        <title>GN-VENDAS</title>
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/script1.js/"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Sistema de Vendas | GN-VENDAS</h1>
+        </header>
+
+        <div class= "box">
+                <form method="post" action="produto.php">
+                    <b>
+                    <fieldset> <legend>Cadastro de produtos</legend></b>
+                        <br></br>
+                        <div class="inputBox">
+                            <input class="text" name="produto" id="produto" class="inputUser"
+                            <label for="name">Produto</label></div>
+                            
+                        <div><input type="text"id="valor"placeholder="Valor em R$">
+                             <label for="valor">valor</label> </div> 
+                        
+                             <div>
+                                <button onclick="produto.adicionar()">Adicionar</button>
+                                <button onclick="produto.excluir()">Deletar</button>
+                            </div> 
+
+                    </fieldset>
+                    
+                </form>
+                
+            </div>
+            
+        <br></br>    
+    
+        <div class= "box">
+            <form method="post" action="produto.php">
+                <fieldset>
+                    <b><legend>Listagem de produtos</legend></b>
+                    <div class="content">
+                        <table>
+                            <thead>
+                                <th class="center">ID</th>
+                                <th class="center">Produto</th>
+                                <th class="center">Valor</th>
+                                <th class="center">Ação</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td><input type="submit" value="Comprar"</td>
+                                    <td><input type="submit" value="Emitir Boleto"</td>
+                                </tr>
+                                <tr>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td><input type="submit" value="Comprar"</td>
+                                    <td><input type="submit" value="Emitir Boleto"</td>
+                                </tr>
+                                <tr>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td class="center"></td>
+                                    <td><input type="submit" value="Comprar"</td>
+                                    <td><input type="submit" value="Emitir Boleto"</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+            
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </div>
+        <br></br> 
+
+     
+    
+        <div class= "box">
+            <form method="post" action="cliente.php"> 
+                <fieldset>
+                    <b><legend>Formulário de clientes</legend> </b>
+                    <br>
+                    <div class="inputBox">
+                        <input class="text" name="nome" id="Nome" class="inputUser" 
+                         <label for="name">Nome completo</label>
+                        </div>
+                        <br></br>
+                        
+                    <div>
+                        <input class="CPF" class="inputUser">
+                        <label for="CPF">CPF</label>
+                    </div> 
+                    <br></br>      
+    
+                    <div>
+                        <input class="telefone" class="inputUser">
+                        <label for="telefone">telefone</label>
+                    </div>  
+                    <br></br>    
+                    
+                        <input type="submit" value="Cadastrar"
+                </fieldset>
+
+                <br></br>
+                <b>
+                <legend>Compras realizadas:</legend>
+                </b>
+                <br></br>
+                <table>
+                    <thead>
+                        <th class="center">LinkdoPDF</th>
+                        <th class="center">IDdoboleto</th>
+                        <th class="center">IDdoProduto</th>
+                        <th class="center">Nome cliente</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="center"></td>
+                            <td class="center"></td>
+                            <th class="center"></th>
+                            <td class="center"></td>
+                        </tr>
+
+                        
+                    </tbody>
+                </table>
+        
+
+            </form>
+    </body>
+    
+
+    
+    
+
+</html>

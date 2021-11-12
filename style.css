@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(247, 247, 247);
+    color: rgb(101, 101, 219);
+    font-family: 20pt Arial, Helvetica, sans-serif;
+   
+}
+.box{
+    background-color:rgba(236, 240, 243, 0.116)
+    
+}
+
+.fieldset{
+    border: 10px solid;
+}
+
+.legend{
+    border: 1px solid 
+    padding 10px
+    color rgb(101, 101, 219);
+    font: 12pt;
+}
+    
+.inputBox{
+    position: relative
+}
+    
+header {
+    background-color: rgba(140, 195, 231, 0.418);
+    padding: 10px;
+    color: rgba(1, 10, 10, 0.863);
+    text-align: center;
+}
+main{
+    padding: 30px 50px;
+}
+
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(217, 232, 236);
+    border-radius: 3px;
+    outline: 0;
+}
+
+button{
+    border: 3px;
+    padding: 10px;
+    outline: 0;
+    background-color: lightblue;
+    color:indigo;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: lightcoral;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border: rgba(1, 10, 10, 0.863) solid;
+    width: 100%;
+}
+
+table th{
+    background-color: silver;
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+}
+  
+
