@@ -10,7 +10,6 @@ class Produto{
         }
         this.listaTabela();
     }
-
 listaTabela() {
     let tbody = document.getElementById('tbody');
     tbody.innerText = '';
@@ -29,8 +28,6 @@ listaTabela() {
         td_acoes.innerText = this.arrayProdutos[1].nomeAçao;
 
         td_id.classList.add('center');
-
-        
     }
 }
 adicionar(produto) { 
@@ -52,11 +49,8 @@ validaCampos(produto){
     let msg = '';
 
     if(produto.nomeProduto = ''){
-
     }
 }
-
-
 
 excluir(){
     // ...
