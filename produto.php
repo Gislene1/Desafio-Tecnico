@@ -1,9 +1,8 @@
 <?php
-
 $dbHost= 'localhost';
 $dbUsername = 'root';
 $dbPassword = '';
-$dbName = 'gn-vendas';
+$dbName = 'gr-vendas';
 
 $conexao = new mysqli ($dbHost,$dbUsername,$dbPassword,$dbName);
 

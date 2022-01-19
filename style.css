@@ -6,7 +6,7 @@ body {
    
 }
 .box{
-    background-color:rgba(236, 240, 243, 0.116)
+    background-color:rgba(95, 129, 153, 0.116)
     
 }
 
@@ -17,7 +17,7 @@ body {
 .legend{
     border: 1px solid 
     padding 10px
-    color rgb(101, 101, 219);
+    color rgb(78, 78, 158);
     font: 12pt;
 }
     
@@ -28,7 +28,7 @@ body {
 header {
     background-color: rgba(140, 195, 231, 0.418);
     padding: 10px;
-    color: rgba(1, 10, 10, 0.863);
+    color: rgba(4, 54, 54, 0.863);
     text-align: center;
 }
 main{
